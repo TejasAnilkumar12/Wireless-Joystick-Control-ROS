@@ -13,7 +13,7 @@ optional arguments:
 -ip SERVER_IP, --server_ip SERVER_IP   SERVER_IP: e.g. 192.168.1.10                                                                                      
 -p SERVER_PORT, --server_port SERVER_PORT  SERVER_PORT: e.g. 5050                                                                                            
 ```
-- On the Client side, for **Non-ROS** usage, execute the joystick_main.py file with arguments -m Client -ip SERVER_IP 
+- On the Client side, for **Non-ROS** usage, execute the **joystick_main.py** file with arguments -m Client -ip SERVER_IP 
 - For **ROS**, execute **WiFiJoyNode.py** as follow:
    rosrun wifi_joy WiFiJoyNode.py -m Client -ip SERVER_IP
 
@@ -40,7 +40,9 @@ On **command line**, execute the following:
 
 **External Libraries Required:**
 protobuf, google, pygame
-pygame prerequisites::
+
+pygame prerequisites:
+
 - sudo apt-get install python-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsdl1.2-dev libsmpeg-dev python-numpy subversion libportmidi-dev ffmpeg libswscale-dev libavformat-dev libavcodec-dev
 - pip install protobuf google pygame
 - pip3 install protobuf google pygame
