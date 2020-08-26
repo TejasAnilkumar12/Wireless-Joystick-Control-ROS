@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+message Joystick{
+Axes axes = 1;
+Buttons buttons = 2;
+}
+
+message Axes{
+float axis0 = 1;
+float axis1 = 2;
+float axis2 = 3;
+float axis3 = 4;
+float axis4 = 5;
+}
+
+
+message Buttons{
+int32 button0 = 1;
+int32 button1 = 2;
+int32 button2 = 3;
+int32 button3 = 4;
+int32 button4 = 5;
+int32 button5 = 6;
+int32 button6 = 7;
+int32 button7 = 8;
+int32 button8 = 9;
+int32 button9 = 10;
+}
