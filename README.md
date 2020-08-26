@@ -17,10 +17,13 @@ optional arguments:
 - For **ROS**, execute **WiFiJoyNode.py** as follow:
    rosrun wifi_joy WiFiJoyNode.py -m Client -ip SERVER_IP
 
-**Setting Up the Files:** 
+### Setting Up the Files: 
+
 **ROS Version:** *Melodic*
+
 **Requires Python 3**
-Setting up Python 3 on ROS:
+
+**Setting up Python 3 on ROS:**
 - sudo apt install python3-pip python3-yaml
 - sudo pip3 install rospkg catkin_pkg
 - sudo apt install python-catkin-tools python3-dev python3-numpy
@@ -37,6 +40,7 @@ On **command line**, execute the following:
 
 **External Libraries Required:**
 protobuf, google, pygame
-pip install protobuf google pygame
+
+- pip install protobuf google pygame
 
 **Note:** Check **ifconfig** on Linux or **ipconfig** on Windows for the Wi-Fi IP address. Use this IP address as the TCP SERVER_IP 
