@@ -40,7 +40,9 @@ On **command line**, execute the following:
 
 **External Libraries Required:**
 protobuf, google, pygame
-
+pygame prerequisites::
+- sudo apt-get install python-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsdl1.2-dev libsmpeg-dev python-numpy subversion libportmidi-dev ffmpeg libswscale-dev libavformat-dev libavcodec-dev
 - pip install protobuf google pygame
+- pip3 install protobuf google pygame
 
 **Note:** Check **ifconfig** on Linux or **ipconfig** on Windows for the Wi-Fi IP address. Use this IP address as the TCP SERVER_IP 
